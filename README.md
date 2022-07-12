@@ -53,16 +53,16 @@ You're sections headers will be used to reference location of destination.
 
 ### Allowed Functions
 
-- **malloc**
-- **free**
-- **write**
-- **open**
-- **read**
-- **close**
+- **printf** | **malloc** | **free** | **write** | **open** | **read** | **close**
+- **readline** = [Get a line from a user with editing.](https://linux.die.net/man/3/readline)
+- **rl_clear_history** | **rl_on_new_line** | **rl_replace_line** | **rl_redisplay, add_history** = [Programming with GNU Readline](https://web.mit.edu/gnu/doc/html/rlman_2.html)
 - **fork** = [Creates a child process.](https://man7.org/linux/man-pages/man2/fork.2.html)
 - **wait, waitpid**  = [Stops the parent process until the child process exit.](https://man7.org/linux/man-pages/man2/waitid.2.html)
 - **wait3, wait4** = [Are similar to waitpid, but additionally return resource usage information about the child.](https://man7.org/linux/man-pages/man2/wait3.2.html)
 - **signal** = [Sets a function to handle a signal.](https://man7.org/linux/man-pages/man2/signal.2.html)
+- **sigaction** = [examine and change a signal action](https://man7.org/linux/man-pages/man2/sigaction.2.html)
+- **sigemptyset** = [Initialize a signal mask to exclude all signals](https://www.ibm.com/docs/en/zos/2.2.0?topic=functions-sigemptyset-initialize-signal-mask-exclude-all-signals)
+- **sigaddset** = [Add a signal to the signal mask](https://www.ibm.com/docs/en/zos/2.2.0?topic=functions-sigaddset-add-signal-signal-mask)
 - **kill** = [Sends a signal to a process or a group of processes.](https://man7.org/linux/man-pages/man2/kill.2.html)
 - **exit** = [Terminates a process immediately, special handle for child processes.](https://www.tutorialspoint.com/c_standard_library/c_function_exit.htm)
 - **getcwd** = [Saves the pathname of your current working directory in a string.](https://man7.org/linux/man-pages/man2/getcwd.2.html)
@@ -71,6 +71,7 @@ You're sections headers will be used to reference location of destination.
   - stat = Standar.
   - lstat = For symbolic links.
   - fstat = Gets the file from a file descriptor.
+- **unlink** = [delete a name and possibly the file it refers](https://man7.org/linux/man-pages/man2/unlink.2.html)
 - **execve** = [Executes a program referred by a variable.](https://man7.org/linux/man-pages/man2/execve.2.html)
 - **dup** = [Creates a copy of a file descriptor using the lowest numbereded unused descriptor.](https://man7.org/linux/man-pages/man2/dup.2.html)
 - **dup2** = [Creates a copy of a file descriptor using the descriptor number given by the user.](https://man7.org/linux/man-pages/man2/dup.2.html)
@@ -79,7 +80,16 @@ You're sections headers will be used to reference location of destination.
 - **readdir** = [Returns a pointer to a dirent structure representing the next directory entry in the directory stream.](https://www.man7.org/linux/man-pages/man3/readdir.3.html)
 - **closedir** = [Closes the directory stream.](https://linux.die.net/man/3/closedir)
 - **strerror** = [Returns an error message.](https://www.tutorialspoint.com/c_standard_library/c_function_strerror.htm)
+- **perror** = [prints a descriptive error message to stderr. First the string str is printed, followed by a colon then a space.](https://www.tutorialspoint.com/c_standard_library/c_function_perror.htm)
 - **errno** = [Number of last error, its a variable.](https://www.youtube.com/watch?v=IZiUT-ipnj0&ab_channel=JacobSorber)
+- **isatty** = [test whether a file descriptor refers to a terminal](https://www.man7.org/linux/man-pages/man3/isatty.3.html)
+- **ttyname** = [return name of a terminal](https://man7.org/linux/man-pages/man3/ttyname.3.html)
+- **ttyslot** = [find the slot of the current user's terminal in some file](https://man7.org/linux/man-pages/man3/ttyslot.3.html)
+- **ioctl** = [control device](https://man7.org/linux/man-pages/man2/ioctl.2.html)
+- **getenv** = [Function Usage in C Programming](https://linuxhint.com/getenv-function-usage/)
+- **tcsetattr** = [get and set terminal attributes, line control, get and set baud rate](https://linux.die.net/man/3/tcsetattr)
+- **tcgetattr** = [Get the attributes for a terminal](https://www.ibm.com/docs/en/zos/2.1.0?topic=functions-tcgetattr-get-attributes-terminal)
+- **tgetent tgetflag tgetnum tgetstr tgoto tputs** = [direct curses interface to the terminfo capability database](https://linux.die.net/man/3/tgetent) | [termcap database emulation](https://pubs.opengroup.org/onlinepubs/7908799/xcurses/tgetent.html)
 
 ---
 
