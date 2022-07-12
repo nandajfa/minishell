@@ -26,7 +26,7 @@ You're sections headers will be used to reference location of destination.
 - [Author Info  ✒️](#author)
 
 ### Scheme
-![Scheme](minishell.png)
+![Scheme](images/minishell.png)
 
 ---
 
