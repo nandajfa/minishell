@@ -56,6 +56,7 @@ You're sections headers will be used to reference location of destination.
 - **printf** | **malloc** | **free** | **write** | **open** | **read** | **close**
 - **readline** = [Get a line from a user with editing.](https://linux.die.net/man/3/readline)
 - **rl_clear_history** | **rl_on_new_line** | **rl_replace_line** | **rl_redisplay, add_history** = [Programming with GNU Readline](https://web.mit.edu/gnu/doc/html/rlman_2.html)
+- **access** = [Determine accessibility of a file](https://pubs.opengroup.org/onlinepubs/009695299/functions/access.html)
 - **fork** = [Creates a child process.](https://man7.org/linux/man-pages/man2/fork.2.html)
 - **wait, waitpid**  = [Stops the parent process until the child process exit.](https://man7.org/linux/man-pages/man2/waitid.2.html)
 - **wait3, wait4** = [Are similar to waitpid, but additionally return resource usage information about the child.](https://man7.org/linux/man-pages/man2/wait3.2.html)
