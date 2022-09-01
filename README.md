@@ -126,7 +126,9 @@ make && ./minishell
 
 #### Author
 
-Made by jessica Fernanda 👋 [See my linkedin](https://www.linkedin.com/in/jessica-fernanda-alves-marques-106651205/)
+Made by:
+Jessica Fernanda 👋 [See my linkedin](https://www.linkedin.com/in/jessica-fernanda-alves-marques-106651205/)
+Vinícius Oliveira 
 
 
 [Back To The Top](#index)
