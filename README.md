@@ -1,9 +1,12 @@
 <h1 align="center">
-	42cursus' minishell
+	<img alt="badge minishell" src="./minishell_dark.svg" />
  </h1>
+ 
+ <div align="center">
  
   [![NPM](https://img.shields.io/npm/l/react)](https://github.com/nandajfa/minishell/blob/main/LICENSE)
  
+ </div>
  
  ### 🗣️ About
 
@@ -124,11 +127,17 @@ make && ./minishell
 * Unix
 * Imperative programming
 
-#### Author
+  ### Authors
+ 
 
-Made by: <br />
-* Jessica Fernanda 👋 [See my linkedin](https://www.linkedin.com/in/jessica-fernanda-106651205) <br />
-* Vinícius Oliveira 
+ 
+ | [<img src="https://avatars.githubusercontent.com/u/80687429?v=4" width=115><br><sub>Jessica Fernanda</sub>](https://github.com/nandajfa) |  [<img src="https://avatars.githubusercontent.com/u/6608056?v=4" width=115><br><sub>Vinícius Gonçalves de Oliveira</sub>](https://github.com/vinicius507) |  
+| :---: | :---: | 
+ 
+ 
+ 
+ [![Linkedin Badge](https://img.shields.io/badge/-Jessica-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jessica-fernanda-106651205)](https://www.linkedin.com/in/jessica-fernanda-106651205) 
+[![Gmail Badge](https://img.shields.io/badge/-nanda.jfa@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nanda.jfa@gmail.com)](mailto:nanda.jfa@gmail.com)
 
 
 [Back To The Top](#index)
